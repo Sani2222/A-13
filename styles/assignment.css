@@ -26,8 +26,6 @@
     cursor: pointer;
 }
 
-
-
    /* main style */
 
 header{
@@ -66,8 +64,6 @@ max-width: 3000px;
 background: url(../assets/hero-bg.png) , no-repeat;
 display: flex;
 justify-content: center;
-background-size: cover;
-background-position: center;
 
 }
 
@@ -99,4 +95,35 @@ background-position: center;
     margin-bottom: 32px;
 }
 
+  #skills{
+  padding: 60px 0;
+  text-align: center;
+
+    
+  }
+
+#skills .skills-container{
+    width: 79%
+    max-width: 1360px
+    margin: 0 auto;
+
+
+}
+
+
+#skills .skills-containe .section-heading h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+    
+}
+
+#skills .skills-containe.section-heading p{
+    font-size: 16px;
+  margin-bottom: 44px;
+  line-height: 20px;
+}
+
+#skills .skills-containe.skill-box{
+    width: 100%;
+}
 
